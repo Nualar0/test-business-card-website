@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(orientation: portrait)" href="style_vert.css">
+    <link rel="stylesheet" media="(orientation: landscape)" href="style.css">
+    <title>Home page</title>
+    <meta name="viewport" content="width=1100">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="img/logo.png" width="50%">
+                </div>
+                <div class="header__menu">
+                    <div class="header__click"><a href="main.html">HOME</a></div>
+                    <div class="header__click"><a href="about.html">ABOUT</a></div>
+                    <div class="header__click"><a href="contacts.html">CONTACTS</a></div>
+                    <!-- <div class="header__click">WORK</div>
+                    <div class="header__click">PROCESS</div>
+                    <div class="header__click">SERVICE</div>
+                    <div class="header__click">TESTIMONIALS</div> -->
+
+                </div>
+            </header>
+            <div class="content">
+                <div class="content__image">
+                    <video autoplay loop width="600" height="350">
+                        <source src="vid/1.mp4" type="video/mp4">
+                        <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+                        <source src="vid/1.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+                        <source src="vid/1.ogv" type="video/ogg">
+                        <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+                        <object data="video.swf" type="application/x-shockwave-flash">
+                            <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+                            <param name="movie" value="video.swf">
+                        </object>
+                    </video>
+                </div>
+                <div class="content__txt">
+                    <div class="content__title">We Design and Developer</div>
+                    <div class="content__text">
+                        <p>Attempt recurred continuing sense chapter held consulted wishing regret kept
+                            rather supplied. Passage unable effects vicinity. Savings they humoured deal mirth.
+                            Continual
+                            compact repulsive busy abilities unpleasing promotion. Alteration whether valley limits son
+                            you
+                            viewing assured innate husband no others adieus entirely into fruit long.</p>
+                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                            was
+                            born and I will give you a complete account of the system, and expound the actual teachings
+                            of
+                            the gre.</p>
+                        <p>Merit concern enough feeling offending. Front unwilling raising household handsome.
+                            Attempted misery gate collecting. Leave pasture against property her. Denied pleased views
+                            viewing limits. </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <button onclick="alert('Наши контакты: тел. +79873216543 г.Артеймевск ул.Сиволобова д.4')" type="button"
+                name="btn" class="button">CONTACT US</button>
+        </div>
+    </div>
+
+    <footer class="footer">© Все права защищены ООО "Рога и Копыта"</footer>
+</body>
+
+</html>
